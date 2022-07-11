@@ -1,0 +1,18 @@
+local Games = {
+  [9611595239] = {"Rift Royale","'https://raw.githubusercontent.com/VainSolutions-Kiitty/Jizz-i-mean-Rizzware/main/NiggerBaby.lua'}).Body)()"},
+  Universal = {"",""}
+}
+
+
+local gameId = game.PlaceId
+
+if table.find(Games , gameId) then
+  local HayStack = Games[gameId] 
+  if HayStack[2] then
+    print(HayStack[1])
+    loadstring(syn.request({Url = ""' .. HayStack[2] .. '"" }).Body)()
+    else
+    loadstring(syn.request({Url = ""' .. Games[Universal][2] .. '"" }).Body)()
+   end
+end
+
